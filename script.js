@@ -58,15 +58,18 @@ musicBtn.innerHTML="🎵";
    START BUTTON
 ================================ */
 
-const start=document.getElementById("openBook");
+const start = document.getElementById("openBook");
 
-start.addEventListener("click",()=>{
 
-document.getElementById("book").scrollIntoView({
+start.addEventListener("click", () => {
 
-behavior:"smooth"
+    music.volume = 1;
 
-});
+    music.play();
+
+    document.getElementById("book").scrollIntoView({
+        behavior: "smooth"
+    });
 
 });
 
@@ -269,13 +272,13 @@ box.style.color="white";
 
 const songs={
 
-"Until I Found You":"https://open.spotify.com/search/until%20i%20found%20you",
+"Until I Found You":"https://youtu.be/GxldQ9eX2wo",
 
-"Khat":"https://open.spotify.com/search/khat",
+"Khat":"https://youtu.be/LUgpPmj6nR8",
 
-"Vachindama":"https://open.spotify.com/search/vachindama",
+"Vachindama":"https://youtu.be/I8t0VJjEffk",
 
-"Bairan":"https://open.spotify.com/search/bairan"
+"Bairan":"https://youtu.be/oafxkMv4xnc"
 
 };
 
