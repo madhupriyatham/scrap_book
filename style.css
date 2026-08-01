@@ -897,7 +897,7 @@ left:30px;
 
 top:25px;
 
-width:300px;
+width:calc(100%-60px);
 
 height:180px;
 
